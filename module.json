@@ -1,0 +1,182 @@
+{
+  "id": "mordenkainen-apresenta-monstros-do-multiverso",
+  "title": "Mordenkainen Apresenta: Monstros do Multiverso",
+  "version": "1.5.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Um bestiário de aliados e inimigos magníficos para o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/mordenkainen-apresenta-monstros-do-multiverso/imagens/thumb-modulo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "racas",
+      "label": "Raças",
+      "path": "packs/racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-racas",
+      "label": "Características de Raças",
+      "path": "packs/caracteristicas-de-racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiario",
+      "label": "Bestiário",
+      "path": "packs/bestiario",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-monstros",
+      "label": "Características de Monstros",
+      "path": "packs/caracteristicas-de-monstros",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itens-magicos",
+      "label": "Itens Mágicos",
+      "path": "packs/itens-magicos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Mordenkainen Apresenta: Monstros do Multiverso",
+      "sorting": "a",
+      "color": "#5c758d",
+      "packs": [
+        "regras",
+        "tabelas",
+        "itens-magicos"
+      ],
+      "folders": [
+        {
+          "name": "Bestiário",
+          "sorting": "a",
+          "color": "#52697e",
+          "packs": [
+            "bestiario",
+            "caracteristicas-de-monstros"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Raças Fantásticas",
+          "sorting": "m",
+          "color": "#495d70",
+          "packs": [
+            "racas",
+            "caracteristicas-de-racas"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "MPMM": "Mordenkainen Apresenta: Monstros do Multiverso"
+      }
+    }
+  }
+}
