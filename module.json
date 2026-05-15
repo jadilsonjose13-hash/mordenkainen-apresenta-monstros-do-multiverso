@@ -1,7 +1,7 @@
 {
   "id": "mordenkainen-apresenta-monstros-do-multiverso",
   "title": "Mordenkainen Apresenta: Monstros do Multiverso",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -64,7 +64,7 @@
       "type": "RollTable",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -75,7 +75,7 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -86,7 +86,7 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -97,7 +97,7 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     }
@@ -178,5 +178,8 @@
         "MPMM": "Mordenkainen Apresenta: Monstros do Multiverso"
       }
     }
-  }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/mordenkainen-apresenta-monstros-do-multiverso",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/mordenkainen-apresenta-monstros-do-multiverso/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/mordenkainen-apresenta-monstros-do-multiverso/archive/refs/heads/main.zip"
 }
